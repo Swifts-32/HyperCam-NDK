@@ -21,8 +21,8 @@ class StreamerEngine {
         private const val TAG = "HyperCamEngine"
     }
 
-    val width = 1920
-    val height = 1080
+    val width = 1280
+    val height = 720
 
     private var outputStream: OutputStream? = null
     private var imageReader: ImageReader? = null
